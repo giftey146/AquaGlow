@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f9fb;
+    color: #333;
+  }
+  
+  header {
+    background: #008cba;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #e0e0e0;
+  }
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between images */
+    margin: 20px 0;
+  }
+  
+  .image-row img {
+    width: 30%; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+  }
+  .hero {
+  background-image: url('your-hero-image-link.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 80px 20px;
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav a:hover {
+  color: #00aaff;
+  transition: 0.3s ease;
+}
+.feature-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1;
+}
+  
